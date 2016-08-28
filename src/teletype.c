@@ -83,7 +83,7 @@ const char *to_v(int16_t);
 // STATE ////////////////////////////////////////////////////////
 
 // eventually these will not be global variables
-static scene_state_t scene_state = {
+scene_state_t scene_state = {
     // variables that haven't been explicitly initialised, will be set to 0
     .variables = {.a = 1,
                   .b = 2,
