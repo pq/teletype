@@ -10,6 +10,7 @@ const char STARTER_SCRIPT[] =
     "Y 12\n"
     "Z 16\n"
     "T 0\n"
+    "L 1 3 : TR.TOG I\n"
     "SCRIPT 8\n"
     "\n"
     "#1\n"
